@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+	long long N;
+	int string[N + 10];
+	scanf("%lld", &N);
+	scanf("%s", string);
+	printf("%s\n", string);
+
+	return 0;
+}
